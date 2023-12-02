@@ -2,6 +2,7 @@
 title: Demo Elements Page
 description: A demo page for the various markup elements in the Dot Org theme.
 images: ["https://via.placeholder.com/250x200/d9d9d9/000000"]
+draft: true
 ---
 
 This is a demo page, designed to show you the various elements of the theme and how they sit together.
@@ -13,16 +14,20 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 First here's how the Heading markup displays:
 
 # H1 Heading
+
 ## H2 Heading
+
 ### H3 Heading
+
 #### H4 Heading
+
 ##### H5 Heading
+
 ###### H6 Heading
 
 ## Horizontal Rule
 
-___
-
+---
 
 # Example Content
 
@@ -44,11 +49,11 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 ## Example Paragraph with Buttons
 
-Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo, rhoncus ut imperdiet a. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo, rhoncus ut imperdiet a. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
 {{< button link="/path/to/page" text="Default Button" >}}
 
-Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo, rhoncus ut imperdiet a. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo, rhoncus ut imperdiet a. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
 {{< button link="/path/to/page" text="Default Button" >}}
 
@@ -56,9 +61,9 @@ Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo
 
 {{< button link="/path/to/page" style="tertiary" text="Tertiary Button" >}}
 
-Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo, rhoncus ut imperdiet a. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo, rhoncus ut imperdiet a. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
 ## Columns
 
@@ -66,7 +71,9 @@ Use responsive columns to layout your page structure. You can use the option cou
 
 {{< columns count=2 >}}
 {{< column >}}
+
 ### Column 1
+
 Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo:
 
 - Aenean commodo ligula get dolor.
@@ -76,7 +83,9 @@ Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo:
 
 {{< /column >}}
 {{< column >}}
+
 ### Column 2
+
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate get, arcu. In enim justo, rhoncus ut imperdiet a.
 {{< /column >}}
 {{< /columns >}}
@@ -85,16 +94,24 @@ Here's a 4 column example:
 
 {{< columns count=4 >}}
 {{< column >}}
+
 #### Column 1
+
 {{< /column >}}
 {{< column >}}
+
 #### Column 2
+
 {{< /column >}}
 {{< column >}}
+
 #### Column 3
+
 {{< /column >}}
 {{< column >}}
+
 #### Column 4
+
 {{< /column >}}
 {{< /columns >}}
 
@@ -104,13 +121,17 @@ Use the cards shortcode to display highlighted content on your page.
 
 {{< cards >}}
 {{< card >}}
+
 ## Something special
+
 Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 {{< spacer >}}
 [Get our app](#)
 {{< /card >}}
 {{< card >}}
+
 ## Our special feature
+
 Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 {{< spacer >}}
 [See our special feature](#)
@@ -139,9 +160,9 @@ The standard vimeo shortcode loads lots of tracking data and is slow, recommende
 
 **This is bold text**
 
-__This is bold text__
+**This is bold text**
 
-*This is italic text*
+_This is italic text_
 
 _This is italic text_
 
@@ -156,20 +177,22 @@ Some text and then a quote:
 And also they can:
 
 > Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
+>
+> > ...by using additional greater-than signs right next to each other...
+> >
 > > > ...or with spaces between arrows.
 
 ## Lists
 
 Unordered
 
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
+- Create a list by starting a line with `+`, `-`, or `*`
+- Sub-lists are made by indenting 2 spaces:
   - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
+    - Ac tristique libero volutpat at
+    * Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
-+ Very easy!
+- Very easy!
 
 Ordered
 
@@ -177,8 +200,8 @@ Ordered
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
 
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
+4. You can use sequential numbers...
+5. ...or keep all the numbers as `1.`
 
 Start numbering with offset:
 
@@ -196,7 +219,6 @@ And then we have some indented code with a comment:
     line 2 of code
     line 3 of code
 
-
 And then we have some block code. They should all look pretty similar:
 
 ```
@@ -205,7 +227,7 @@ Sample text here...
 
 And finally some syntax highlighting, yes, out of the box:
 
-``` js
+```js
 var foo = function (bar) {
   return bar++;
 };
@@ -218,7 +240,7 @@ console.log(foo(5));
 ### Short table:
 
 | Project | Date       |
-|---------|------------|
+| ------- | ---------- |
 | Alpha   | 2023-07-01 |
 | Beta    | 2023-07-15 |
 | Gamma   | 2023-08-01 |
@@ -230,9 +252,9 @@ console.log(foo(5));
 {{< responsive_table >}}
 | Option | Option | Description |
 | ------ | ------ | ----------- |
-| one    | data   | path to data files to supply the data that will be passed into templates. |
-| two    | engine | engine to be used for processing templates. Handlebars is the default. |
-| three  | ext    | extension to be used for dest files. |
+| one | data | path to data files to supply the data that will be passed into templates. |
+| two | engine | engine to be used for processing templates. Handlebars is the default. |
+| three | ext | extension to be used for dest files. |
 {{< /responsive_table >}}
 
 ## Links
@@ -241,7 +263,7 @@ console.log(foo(5));
 
 [link with title](http://nodeca.github.io/pica/demo/ "title text!")
 
-Autoconverted link https://github.com/nodeca/pica 
+Autoconverted link https://github.com/nodeca/pica
 
 ## Images
 
@@ -258,7 +280,7 @@ Coming soon: Advanced image handling, lazy loading, etc.
 
 ## Tweets
 
-Embedding tweets like this loads lots of tracking scripts and is not recommended. Use a screenshot of the tweet and link the image to the real tweet. 
+Embedding tweets like this loads lots of tracking scripts and is not recommended. Use a screenshot of the tweet and link the image to the real tweet.
 
 {{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
 
@@ -277,6 +299,4 @@ Footnote 2 link[^second].
 Duplicated footnote reference[^second].
 
 [^first]: Footnote is here.
-
 [^second]: Footnote text.
-
