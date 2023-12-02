@@ -1,0 +1,30 @@
+{
+  "name": "ipr-cell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "none.js",
+  "scripts": {
+    "build": "hugo --theme=dot-org-hugo-theme",
+    "start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vce-cse-dept/ipr-cell"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vce-cse-dept/ipr-cell/issues"
+  },
+  "homepage": "https://github.com/vce-cse-dept/ipr-cell#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "hugo-extended": "^0.117.0",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}

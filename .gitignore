@@ -19,3 +19,12 @@
 
 # Go workspace file
 go.work
+
+# node related
+public/
+resources/
+node_modules/
+.hugo_build.lock
+.DS_Store
+.netlify
+hugo_stats.json
