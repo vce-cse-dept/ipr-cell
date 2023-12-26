@@ -3,7 +3,7 @@ en:
   weight: 1
   ### copyright (markdown can be used) ###
   copyright: "Copyright &copy; {{< current_year >}} Vardhaman College of Engineering. All Rights Reserved. Handcrafted With ❤ in Hyderabad. Maintained by Yayin AI Lab, Designed from [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
-  title: "Site Title"
+  title: "IPR Cell"
   description: "Site Description"
   params:
     ### accessibility ###
@@ -12,13 +12,7 @@ en:
       help_text: "Accessibility Statement"
       help_url: "/example-page/"
     ### calls to action ###
-    main_cta:
-      text: "Join"
-      link: "/example-page/"
-    footer_cta:
-      text: "Join us"
-      link: "/example-page/"
-    github_edit: "Edit this page on GitHub"
+
   ### example menu showing children ###
   menu:
     main:
@@ -27,54 +21,59 @@ en:
         url: "/example-page/"
         weight: 1
       - identifier: "child-1"
-        name: "Example Child Page"
+        name: "About Us"
         url: "/example-page/"
         weight: 1
         post: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo."
         parent: "about"
       - identifier: "child-2"
-        name: "Example Child Page"
-        url: "/example-page/"
+        name: "Policies"
+        url: "/policies/"
         weight: 2
         post: "Aenean commodo ligula get dolor. Aenean massa."
         parent: "about"
       - identifier: "child-3"
-        name: "Example Child Page"
-        url: "/example-page/"
+        name: "Programs"
+        url: "/programs/"
         weight: 3
         post: "Nulla consequat massa quis enim. Donec pede justo."
         parent: "about"
-      - identifier: "example"
-        name: "Example"
-        url: "/example-page/"
+      - identifier: "ip"
+        name: "IP"
+        url: "/programs/"
         weight: 2
-      - identifier: "example-1"
-        name: "Example Child Page"
-        url: "/example-page/"
+      - identifier: "ip-1"
+        name: "IP COMPENDIUM"
+        url: "/ipcompendium/"
         weight: 1
         post: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo."
-        parent: "example"
-      - identifier: "example-2"
-        name: "Example Child Page"
-        url: "/example-page/"
+        parent: "ip"
+      - identifier: "ip-2"
+        name: "IP BLOGGER"
+        url: "/ipblogger/"
         weight: 2
         post: "Nulla consequat massa quis enim. Donec pede justo."
-        parent: "example"
-      - identifier: "example-3"
-        name: "Example Child Page"
-        url: "/example-page/"
-        weight: 3
-        post: "Aenean commodo ligula get dolor. Aenean massa. "
-        parent: "example"
-      - identifier: "demo-page"
-        name: "Demo Page"
-        url: "/demo-page/"
-        weight: 3
-      - identifier: "faq"
-        name: "FAQs"
-        url: "/faq/"
+        parent: "ip"
+
+      - identifier: "Teck"
+        name: "Technologies basket"
+        url: "/technologies/"
         weight: 4
-      - identifier: "blog"
-        name: "Blog"
+      - identifier: "startup"
+        name: "startup"
         url: "/blog/"
         weight: 5
+      - identifier: "start-1"
+        name: "Startup weekly digest"
+        url: "/startup-weekly/"
+        weight: 2
+        post: "Nulla consequat massa quis enim. Donec pede justo."
+        parent: "startup"
+      - identifier: "FAQ"
+        name: "FAQ"
+        url: "/faq/"
+        weight: 5
+      - identifier: "contact"
+        name: "Contact us"
+        url: "/contact/"
+        weight: 7
