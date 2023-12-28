@@ -15,5 +15,3 @@ draft: false
 #### \* ipr policy
 
 #### \* ipr policy
-
-Your content goes here. policies
