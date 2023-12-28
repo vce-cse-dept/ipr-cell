@@ -18,11 +18,10 @@ en:
     main:
       - identifier: "about"
         name: "About"
-        url: "/example-page/"
         weight: 1
       - identifier: "child-1"
         name: "About Us"
-        url: "/example-page/"
+        url: "/aboutus/"
         weight: 1
         post: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo."
         parent: "about"
