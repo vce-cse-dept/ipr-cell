@@ -1,6 +1,7 @@
 ---
 title: About Us
-description: This is used for the description. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula get dolor. Aenean m
+description: The cell's mission is to create awareness and provide guidance on intellectual property rights and obligations within the institute's framework. The objective is to promote academic freedom, safeguard inventors' interests, and foster an environment for innovation. The IPR Chair (DPIIT) aims to create superior quality Intellectual Capital for Indian Leadership in a globalized knowledge society. Their long-term mission includes capacity creation in IP practice, education, training, research, and awareness through a multidisciplinary approach.
+noindex: true
 ---
 
 ## IPR cell

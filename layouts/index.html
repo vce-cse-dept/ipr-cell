@@ -1,0 +1,55 @@
+{{ define "main" }}
+  <div class="columns hero-grid">
+    <div class="hero-grid__col1">
+      <h1 class="title hero-smaller-title">
+        {{ i18n "hero1" }}<br /><span class="darker">{{ i18n "hero2" }}</span>
+      </h1>
+
+      <h2 class="subhero">{{ i18n "subhero" }}</h2>
+
+      <p class="shortened-width">{{ i18n "explainerText" | markdownify }}</p>
+      
+      <p class="shortened-width">{{ i18n "explainerText2" | markdownify }}</p>
+
+      <a href="/aboutus" class="button">{{ i18n "explainerButton" }}</a>
+    </div>
+
+    <div class="hero-grid__col2">
+      <img
+        width="585"
+        height="530"
+        src="{{ "img/hero-side.jpg" | relURL }}"
+        alt="People collaborating"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+  </div>
+
+  <h3 class="h4">{{ i18n "sectionTitle" | markdownify }}</h3>
+
+  <div class="cards columns-3 box-grid">
+    <div class="card">
+      <h2>{{ i18n "sectionTitle1" }}</h2>
+      <p>{{ i18n "sectionText1" | markdownify }}</p>
+      <a href="https://vardhaman.org/" class="button">{{ i18n "sectionButton1" }}</a>
+    </div>
+
+    <div class="card">
+      <h2>{{ i18n "sectionTitle2" }}</h2>
+      <p>{{ i18n "sectionText2" | markdownify }}</p>
+      <a href="/technologies/" class="button"
+        >{{ i18n "sectionButton2" }}</a
+      >
+    </div>
+
+    <div class="card">
+      <h2>{{ i18n "sectionTitle3" }}</h2>
+      <p>{{ i18n "sectionText3" | markdownify }}</p>
+      <a href="/startup-weekly/" class="button">{{ i18n "sectionButton3" }}</a>
+    </div>
+  </div>
+
+  <hr />
+
+{{ end }}
