@@ -2,12 +2,49 @@
 title: "ip compendium"
 date: 2023-12-26T10:00:00Z
 draft: false
+showHeader: false
 ---
 
-### Details of patents department wise:
+### Details of Patent Applications 
 
-- edit the list here
+> Calendar Year Wise
 
-### list of patent application calender year wise:
+{{< cards count=4 >}}
+{{< card >}}
+#### 2021
 
-- edit the list here
+To View [Click Here](mailto:headiprnc@vardhaman.org)
+{{< /card >}}
+{{< card >}}
+#### 2020
+
+To View [Click Here](mailto:headiprnc@vardhaman.org)
+{{< /card >}}
+{{< card >}}
+#### 2019
+
+To View [Click Here](mailto:headiprnc@vardhaman.org)
+{{< /card >}}
+{{< /cards >}}
+
+### Granted Patents 
+
+> Calendar Year Wise
+
+{{< cards count=4 >}}
+{{< card >}}
+#### 2021
+
+To View [Click Here](mailto:headiprnc@vardhaman.org)
+{{< /card >}}
+{{< card >}}
+#### 2020
+
+To View [Click Here](mailto:headiprnc@vardhaman.org)
+{{< /card >}}
+{{< card >}}
+#### 2019
+
+To View [Click Here](mailto:headiprnc@vardhaman.org)
+{{< /card >}}
+{{< /cards >}}
