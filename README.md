@@ -1,6 +1,28 @@
-# ipr-cell
+# Vardhaman College of Engineering -- IPR Cell Website
 
-## Pre Requistes
+- [Table of Contents](#vardhaman-college-of-engineering----ipr-cell-website)
+   * [Local Development and Usage Guidelines](#local-development-and-usage-guidelines)
+      + [Pre Requistes](#pre-requistes)
+      + [Setting up a local instance for improving this theme](#setting-up-a-local-instance-for-improving-this-theme)
+      + [Config files](#config-files)
+      + [Custom front matter](#custom-front-matter)
+               + [Hide the page title / article header](#hide-the-page-title--article-header)
+      + [Custom shortcodes ](#custom-shortcodes)
+         - [Button](#button)
+         - [Cards](#cards)
+         - [Columns](#columns)
+         - [Current Year](#current-year)
+         - [iFrame](#iframe)
+         - [Img](#img)
+         - [Linebreak](#linebreak)
+         - [Responsive Table](#responsive-table)
+         - [Spacer](#spacer)
+         - [Table of Contents (TOC)](#table-of-contents-toc)
+         - [YouTube Enhanced](#youtube-enhanced)
+
+## Local Development and Usage Guidelines
+
+### Pre Requistes
 
 - [Node.js](https://nodejs.org/en/download)
 - [Hugo Framework](https://gohugo.io/getting-started/quick-start/)
@@ -8,7 +30,7 @@
 - [Github Account](github.com) to commit changes
 - [Visual Studio Code](https://code.visualstudio.com/) or your favourite IDE
 
-## Setting up a local instance for improving this theme
+### Setting up a local instance for improving this theme
 
 To run in your local system follow below commands
 
@@ -19,23 +41,23 @@ npm install
 npm run start
 ```
 
-## Config files
+### Config files
 
 See /exampleSite/config/ for example configuration files.
 
 You should copy these across or merge them with your existing config.
 
-## Custom front matter
+### Custom front matter
 
 We have created custom front matter to use in your markdown files:
 
-#### Hide the page title / article header
+###### Hide the page title / article header
 
 ```
 showHeader: false
 ```
 
-## Custom shortcodes 
+### Custom shortcodes 
 
 You can use our custom shortcodes to quickly style your website in markdown. Due to the way Hugo deals with nested content, particularly nested shortcodes, you may find that shortcodes that are children of other shortcodes do not render as they should. If this happens to your site, this can often be resolved by allowing Hugo to [render "unsafe" HTML](https://gohugo.io/getting-started/configuration-markup/#goldmark). Add the following to your config YAML file:
 
@@ -46,7 +68,7 @@ markup:
       unsafe: true
 ```
 
-### Button
+#### Button
 
 There is a button ready to be inserted in to markdown files:
 
@@ -65,20 +87,20 @@ Options:
 - text # (required) the button text
 - style # (optional) secondary, tertiary
 
-### Cards
+#### Cards
 
 An outlined box that is useful for highlighting information or using to wrap list elements.
 
 ```
 {{< cards count=2 >}}
 {{< card >}}
-## Special Feature 1
+### Special Feature 1
 Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 {{< spacer >}}
 [Download](#)
 {{< /card >}}
 {{< card >}}
-## Special Feature 2
+### Special Feature 2
 Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 {{< spacer >}}
 [About us](#)
@@ -89,7 +111,7 @@ Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 Options:
 - count # (optional) number of columns on desktop; 2,3,4. Default: 3.
 
-### Columns
+#### Columns
 
 A responsive column structure.
 
@@ -107,7 +129,7 @@ Column 2
 Options:
 - count # (optional) number of columns on desktop; 2,3,4. Default: 3.
 
-### Current Year
+#### Current Year
 
 Insert the current year easily with this shortcode:
 
@@ -117,7 +139,7 @@ Insert the current year easily with this shortcode:
 
 Useful for copyright notices and evergreen blog content.
 
-### iFrame
+#### iFrame
 
 Insert an iFrame with your desired content.
 
@@ -132,7 +154,7 @@ Options:
 - title # (optional) the title of the iframe for accessibility
 - loading # (optional) defaults to lazy
 
-### Img
+#### Img
 
 Inserts an image in a more advanced format than standard Hugo syntax.
 
@@ -148,7 +170,7 @@ Options:
 - caption # (optional) markdown is accepted
 - loading # (optional) defaults to lazy, use eager above the fold
 
-### Linebreak
+#### Linebreak
 
 Sometimes markdown can bunch paragraphs together. You can force a line return using the linebreak shortcode.
 
@@ -156,7 +178,7 @@ Sometimes markdown can bunch paragraphs together. You can force a line return us
 {{< br >}}
 ```
 
-### Responsive Table
+#### Responsive Table
 
 Wrap your large tables with this shortcode so they overflow on mobile:
 
@@ -170,7 +192,7 @@ Wrap your large tables with this shortcode so they overflow on mobile:
 {{< /responsive_table >}}
 ```
 
-### Spacer
+#### Spacer
 
 A spacer is useful for spacing out content on your page. By default our spacer inserts a 50px height space. Our spacer is responsive, so on mobile devices the value is reduced by 50% (i.e. 50px space becomes 25px space).
 
@@ -181,7 +203,7 @@ A spacer is useful for spacing out content on your page. By default our spacer i
 {{< spacer 100 >}}
 ```
 
-### Table of Contents (TOC)
+#### Table of Contents (TOC)
 
 Insert a Table of Contents automatically in to your page. Picks up on all H2 elements on the page.
 
@@ -189,7 +211,7 @@ Insert a Table of Contents automatically in to your page. Picks up on all H2 ele
 {{< toc >}}
 ```
 
-### YouTube Enhanced
+#### YouTube Enhanced
 
 A privacy friendly and fast YouTube embed.
 

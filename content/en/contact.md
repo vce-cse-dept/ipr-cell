@@ -6,7 +6,7 @@ draft: false
 
 {{< cards count=2 >}}
 {{< card >}}
-#### Dr. Mukta Jagadish,
+#### Dr. Mukta Jagdish,
 
 Head IPR & Consultancy,
 
